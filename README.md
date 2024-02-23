@@ -19,7 +19,7 @@ The package will automatically register itself.
 You can use the `Haversine::distance()` method to calculate the distance between two geographical points using the Haversine formula. This method returns the distance in kilometers by default.
 
 ```php
-use Iroid\HaversinePackage\Haversine;
+use Iroid\LaravelHaversine\Haversine;
 
 $latitudeFrom = 40.7128; // Latitude of point A
 $longitudeFrom = -74.0060; // Longitude of point A
@@ -44,7 +44,7 @@ $distanceInMeters = Haversine::distance($latitudeFrom, $longitudeFrom, $latitude
 You can use the `applyHaversine()` method provided by the package with Laravel's Eloquent ORM to calculate distances between database records and a given geographical point.
 
 ```php
-use Iroid\HaversinePackage\Haversine;
+use Iroid\LaravelHaversine\Haversine;
 
 $latitudeFrom = 40.7128; // Latitude of the reference point
 $longitudeFrom = -74.0060; // Longitude of the reference point
