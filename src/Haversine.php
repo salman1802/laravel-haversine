@@ -1,5 +1,5 @@
 <?php
-namespace Iroid\HaversinePackage;
+namespace Iroid\LaravelHaversine;
 
 class Haversine
 {
