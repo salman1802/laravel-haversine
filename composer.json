@@ -1,0 +1,19 @@
+{
+    "name": "iroid/laravel-haversine",
+    "description": "Laravel package for calculating distances using the Haversine formula",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salman Ansari",
+            "email": "salman.ansari.1253218@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\HaversinePackage\\": "src/"
+        }
+    }
+}
